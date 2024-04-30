@@ -12,7 +12,8 @@ def calcular_promedio(lista):
         print("La lista incluye elementos no numericos")
         return None
 
-numeros = [1, 2, 3, 4, 5]
+#numeros = [1, 2, 3, 4, 5]
+numeros = []
 promedio = calcular_promedio(numeros)
 if promedio is not None:
     print("El promedio es:", promedio)
