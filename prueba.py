@@ -10,5 +10,9 @@ print("El promedio es:", calcular_promedio(numeros))
 
 if 10 > 5:  
     print("Diez es mayor que cinco")
+    print("Diez es mayor que cinco")
+    print("Diez es mayor que cinco")
+    print("Diez es mayor que cinco")
+    print("Diez es mayor que cinco")
 
 variable_no_usada = 10 
