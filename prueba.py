@@ -6,10 +6,10 @@ def calcular_promedio(lista):
         promedio = suma / len(lista)
         return promedio
     except ZeroDivisionError:
-        print("Error: La lista está vacía. No se puede calcular el promedio.")
+        print("Error por que la lista esta vacía")
         return None
     except TypeError:
-        print("Error: La lista contiene elementos no numéricos.")
+        print("La lista incluye elementos no numéricos")
         return None
 
 numeros = [1, 2, 3, 4, 5]
@@ -24,5 +24,4 @@ if 10 > 5:
     print("Diez es mayor que cinco")
     print("Diez es mayor que cinco")
 
-# La siguiente línea genera un aviso en SonarQube por una variable no utilizada
 variable_no_usada = 10
