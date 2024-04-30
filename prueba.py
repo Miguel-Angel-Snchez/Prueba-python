@@ -3,12 +3,12 @@ def calcular_promedio(lista):
     for num in lista:
         suma += num
     promedio = suma / len(lista)
-    return promedio  # Error de ortografía en 'return'
+    return promedio
 
 numeros = [1, 2, 3, 4, 5]
-print("El promedio es:", calcular_promedio(numeros))  # Error de llamada a función (typo en el nombre de la función)
+print("El promedio es:", calcular_promedio(numeros))
 
-if 10 > 5:  # Error de estilo: No se usa paréntesis alrededor de la condición
+if 10 > 5:  
     print("Diez es mayor que cinco")
 
-variable_no_usada = 10  # Error de estilo: Variable definida pero nunca usada
+variable_no_usada = 10 
