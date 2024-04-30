@@ -1,3 +1,8 @@
+#!/usr/bin/python -S
+
+import sys
+sys.setdefaultencoding("utf-8")
+
 def calcular_promedio(lista):
     try:
         suma = 0
