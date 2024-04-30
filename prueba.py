@@ -6,10 +6,10 @@ def calcular_promedio(lista):
         promedio = suma / len(lista)
         return promedio
     except ZeroDivisionError:
-        print("Error por que la lista esta vacía")
+        print("Error por que la lista esta vacia")
         return None
     except TypeError:
-        print("La lista incluye elementos no numéricos")
+        print("La lista incluye elementos no numericos")
         return None
 
 numeros = [1, 2, 3, 4, 5]
